@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_5adf6b4f28fe6f0cc11182bdd863a6ca4de60b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leo Yoon\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\pre-dexed\debug\gson-2.7_993c327ba1b2d600f63deb3856aa2662ff656672.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leo Yoon\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_c153474c49f86358f526e3df68d16d28a09737bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_5adf6b4f28fe6f0cc11182bdd863a6ca4de60b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leo Yoon\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_c153474c49f86358f526e3df68d16d28a09737bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leo Yoon\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Leo Yoon\Desktop\jaeyeon-HabitTracker\app\build\intermediates\pre-dexed\debug\gson-2.7_993c327ba1b2d600f63deb3856aa2662ff656672.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Habit Name"
+        android:ems="10"
+        android:id="@+id/habitNameText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/saturdayButton" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sun"
+        android:id="@+id/sundayButton"
+        android:layout_below="@+id/habitNameText"
+        android:textOff="Sun"
+        android:textOn="Sun"
+        android:layout_alignParentStart="false" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:id="@+id/mondayButton"
+        android:layout_alignTop="@+id/sundayButton"
+        android:layout_toEndOf="@+id/sundayButton"
+        android:textOff="M"
+        android:textOn="M" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:id="@+id/tuesdayButton"
+        android:layout_alignTop="@+id/mondayButton"
+        android:layout_toEndOf="@+id/mondayButton"
+        android:textOn="T"
+        android:textOff="T" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W"
+        android:id="@+id/wednesdayButton"
+        android:layout_alignBottom="@+id/thursdayButton"
+        android:layout_toStartOf="@+id/thursdayButton"
+        android:textOff="W"
+        android:textOn="W" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:id="@+id/thursdayButton"
+        android:layout_alignBottom="@+id/fridayButton"
+        android:layout_toStartOf="@+id/fridayButton"
+        android:textOff="T"
+        android:textOn="T" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:id="@+id/fridayButton"
+        android:layout_alignBottom="@+id/saturdayButton"
+        android:layout_toStartOf="@+id/saturdayButton"
+        android:textOff="F"
+        android:textOn="F" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat"
+        android:id="@+id/saturdayButton"
+        android:layout_below="@+id/mondayButton"
+        android:layout_alignParentEnd="true"
+        android:textOff="Sat"
+        android:textOn="Sat" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every Day"
+        android:id="@+id/everyDayButton"
+        android:layout_below="@+id/wednesdayButton"
+        android:layout_alignEnd="@+id/fridayButton"
+        android:layout_toEndOf="@+id/sundayButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Habit"
+        android:id="@+id/addHabitButton"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
